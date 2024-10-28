@@ -1,9 +1,9 @@
 //Write a program to reverse an array.
 #include<stdio.h>
 int main(){
-    int arr[50]; //guys adjust the size according to  your choice
+    int arr[50];
     int n, i ;
-    printf("ENter number of elements in array");
+    printf("Enter number of elements in array: ");
     scanf("%d", &n);
 
     //Checking condition
