@@ -1,3 +1,10 @@
+// Implement linked list and it's operations:
+// 1. Creation 
+// 2. Insertion of a node 
+// 3. Deletion of a node
+// 4. Traversal
+//easy way
+
 #include <stdio.h>
 #include <stdlib.h>
 
