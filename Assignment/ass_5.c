@@ -49,6 +49,7 @@ void display() {
     }
 }
 
+//main function
 int main() {
     int choice;
     while (1) {
