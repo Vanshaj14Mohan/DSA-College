@@ -5,10 +5,10 @@
 int linearSearch(int arr[], int size, int target) {
     for (int i = 0; i < size; i++) {
         if (arr[i] == target) {
-            return i; // Return the index of the found element
+            return i; //i means index here
         }
     }
-    return -1; // Return -1 if the element is not found
+    return -1; 
 }
 
 // Function for Binary Search
@@ -19,7 +19,7 @@ int binarySearch(int arr[], int size, int target) {
         int mid = left + (right - left) / 2;
 
         if (arr[mid] == target) {
-            return mid; // Return the index of the found element
+            return mid; 
         }
         if (arr[mid] < target) {
             left = mid + 1;
@@ -27,7 +27,7 @@ int binarySearch(int arr[], int size, int target) {
             right = mid - 1;
         }
     }
-    return -1; // Return -1 if the element is not found
+    return -1; 
 }
 
 int main() {
@@ -46,7 +46,7 @@ int main() {
         result = binarySearch(arr, size, target);
     } else {
         printf("Invalid choice.\n");
-        return 1; // Exit with error code
+        return 1; 
     }
 
     if (result != -1) {
