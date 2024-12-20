@@ -1,4 +1,4 @@
-//Selection Sort
+//Selection Sorting
 #include <stdio.h>
 
 void selectionSort(int arr[], int n) {
