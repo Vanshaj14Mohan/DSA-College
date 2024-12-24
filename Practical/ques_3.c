@@ -89,7 +89,6 @@ int main() {
     insertAtEnd(&head, 20);
     insertAtPosition(&head, 15, 2);  // Insert 15 at position 2
     insertAtEnd(&head, 25);
-
     printf("Doubly Linked List: ");
     displayList(head);
 
