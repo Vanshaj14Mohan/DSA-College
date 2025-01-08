@@ -83,12 +83,9 @@ void printArray(int arr[], int size) {
 int main() {
     int arr[] = {12, 11, 13, 5, 6, 7};
     int arrSize = sizeof(arr) / sizeof(arr[0]);
-
     printf("Unsorted array: \n");
     printArray(arr, arrSize);
-
     mergeSort(arr, 0, arrSize - 1); // Sorting the array
-
     printf("Sorted array: \n");
     printArray(arr, arrSize);
 
