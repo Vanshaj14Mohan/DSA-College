@@ -34,7 +34,6 @@ int main() {
     int choice, target, result;
     int arr[] = {2, 3, 4, 10, 40}; // Example sorted array
     int size = sizeof(arr) / sizeof(arr[0]);
-
     printf("Choose search method:\n1. Linear Search\n2. Binary Search\nEnter your choice (1 or 2): ");
     scanf("%d", &choice);
     printf("Enter the element to search: ");
