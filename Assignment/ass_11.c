@@ -1,3 +1,6 @@
+//Write a program for Graph Traversal:
+// 1. BFS
+// 2. DFS
 #include <stdio.h>
 #include <stdlib.h>
 
